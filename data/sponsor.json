@@ -2,8 +2,8 @@
   "first_sponsor": [
     { "name": "稀有變身卡寶箱", "qty": 2, "icon_id": "20516" },
     { "name": "稀有娃娃卡寶箱", "qty": 2, "icon_id": "20521" },
-    { "name": "天赦魔核", "qty": 1, "icon_id": "2700" },
-    { "name": "天赦禮盒", "qty": 3, "icon_id": "7853" },
+    { "name": "噬魂魔核", "qty": 1, "icon_id": "2700" },
+    { "name": "噬魂禮盒", "qty": 3, "icon_id": "7853" },
     { "name": "名譽貨幣", "qty": 20, "icon_id": "1480" },
     { "name": "巧克力蛋糕", "qty": 20, "icon_id": "2901" }
   ],
