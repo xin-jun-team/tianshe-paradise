@@ -22,19 +22,17 @@
       "title": "單筆滿額 · 傳說贈禮",
       "desc": "單筆贊助滿 $20,000 贈傳說變身卡寶箱、滿 $25,000 贈傳說娃娃卡寶箱，不限次數！",
       "date_label": "即日起 · 單筆達標即贈 · 不限次數",
-      "link": "event-single-sponsor.html",
       "tag": "長期活動",
       "tag_style": "permanent",
-      "link_text": "查看詳情"
+      "status": "禮包內容規劃中"
     },
     {
       "title": "累計贊助禮包",
       "desc": "贊助累計達標即可領取豐厚禮包，共 6 階段（$1,000 ~ $30,000），含變身卡、製作秘笈、升階石等稀有道具。",
       "date_label": "即日起 · 每階段限領一次",
-      "link": "event-sponsor-gift.html",
       "tag": "長期活動",
       "tag_style": "permanent",
-      "link_text": "查看詳情"
+      "status": "禮包內容規劃中"
     },
     {
       "title": "夜間福利",
@@ -53,33 +51,6 @@
       "tag": "全民活動",
       "tag_style": "active",
       "link_text": "查看詳情"
-    },
-    {
-      "title": "八八節感恩回饋 👨‍👧‍👦",
-      "desc": "慶祝父親節！活動期間單筆贊助滿 $8,888，加碼贈送 8 張「祝福強化卷軸」── 爸氣十足，強化不手軟！（可與單筆滿額贈禮、累計贊助禮包同時計算）",
-      "date_label": "08/08 ~ 08/16 · 單筆達標即贈",
-      "tag": "限時活動",
-      "tag_style": "active",
-      "link": "event-fathers-day.html",
-      "link_text": "查看詳情"
-    },
-    {
-      "title": "亞丁之父叛變 ⚔",
-      "desc": "父親節爆走的亞丁之父叛變啦！擊殺 BOSS 掠奪豐富獎池！",
-      "date_label": "08/10 ~ 08/31 維修前 · 限時討伐",
-      "tag": "限時活動",
-      "tag_style": "active",
-      "link": "event-aden-father.html",
-      "link_text": "查看獎勵"
-    },
-    {
-      "title": "赫卡特強化禮包",
-      "desc": "一包搞定赫卡特強化所需材料，夜月之力 + 祝福卷軸 + 防爆卷箱，超值組合！",
-      "date_label": "即日起 · $499 / 包",
-      "tag": "限定禮包",
-      "tag_style": "active",
-      "link": "event-hecate-pack.html",
-      "link_text": "查看內容"
     }
   ],
   "upcoming": [
