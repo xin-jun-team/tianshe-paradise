@@ -16,6 +16,12 @@
     .page-tab.active { color:#8a6412; background:linear-gradient(135deg,#f3e7cc,#eaddbd); border-color:#b8862a; font-weight:700; }
     .tab-content { display:none; }
     .tab-content.active { display:block; }
+    .table-wrap { overflow-x:auto; margin-bottom:24px; }
+    .jump-table { width:100%; border-collapse:collapse; font-size:0.82rem; }
+    .jump-table th { background:var(--bg-surface); color:var(--gold); font-family:'Cinzel',serif; font-size:0.68rem; letter-spacing:0.1em; padding:10px 14px; border:1px solid var(--border-hi); text-align:left; }
+    .jump-table td { padding:10px 14px; border:1px solid var(--border-gold); color:var(--text); }
+    .jump-table tr:nth-child(odd) td { background:var(--bg-card); }
+    .jump-table tr:nth-child(even) td { background:var(--bg-dark); }
 
     /* ── Armor Table ── */
     .atbl { width:100%; border-collapse:collapse; font-size:0.82rem; }
@@ -207,6 +213,7 @@
     <div class="page-tabs">
       <button class="page-tab active" data-tab="overview" onclick="switchTab('overview')">防具總覽</button>
       <button class="page-tab" data-tab="craft" onclick="switchTab('craft')">製作系統</button>
+      <button class="page-tab" data-tab="enhance" onclick="switchTab('enhance')">防具強化系統說明</button>
     </div>
 
     <!-- ══════════════════════════════════════
@@ -626,6 +633,24 @@
       </div>
 
     </div><!-- end tab-craft -->
+
+    <div id="tab-enhance" class="tab-content">
+      <div class="section-bar">✨ 祝福捲軸強化跳階說明</div>
+      <div class="info-box" style="margin-bottom:16px;">
+        <p>💡 使用<strong>祝福的強化卷軸</strong>強化防具時，成功後可能一次跳升多個等級。各區間跳升範圍如下：</p>
+      </div>
+      <div class="table-wrap">
+        <table class="jump-table">
+          <thead><tr><th>目前強化區間</th><th>可能跳升階數</th></tr></thead>
+          <tbody>
+            <tr><td>+0 ~ +2</td><td style="color:var(--gold)">跳升 +1 ~ +3 階</td></tr>
+            <tr><td>+3 ~ +5</td><td style="color:var(--gold)">跳升 +1 ~ +2 階</td></tr>
+            <tr><td>+6 以上（含 +6）</td><td style="color:var(--gold)">只跳升 +1 階</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.78rem;color:var(--text-dim);text-align:right;margin-top:8px;">※ 強化數值以遊戲內實際顯示為準</p>
+    </div><!-- end tab-enhance -->
 
     <!-- ── Pager ── -->
     <div class="fp-pager">
