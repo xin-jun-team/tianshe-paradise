@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="天赦天堂 — 伺服器特色介紹">
-  <title>特色介紹 — 天赦天堂</title>
+  <title>高技獲取途徑 — 天赦天堂</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700;900&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
@@ -98,6 +98,20 @@
     .sys-card:hover .sys-card__arrow { color: #b8862a; }
     .sys-card:hover .sys-card__arrow::after { color: #cf9f3a; }
 
+    .hs-note { background:var(--bg-card); border:1px solid var(--border-gold); border-left:3px solid var(--gold); border-radius:4px; padding:16px 20px; margin-bottom:20px; }
+    .hs-note__title { font-family:'Noto Serif TC',serif; font-weight:900; color:var(--gold); margin-bottom:8px; letter-spacing:0.06em; }
+    .hs-note ul { margin:0; padding-left:20px; }
+    .hs-note li { color:var(--text); font-size:0.9rem; line-height:1.95; }
+    .hs-note li strong { color:var(--gold); }
+    .hs-tablewrap { overflow-x:auto; margin-bottom:36px; }
+    .hs-table { width:100%; border-collapse:collapse; font-size:0.88rem; }
+    .hs-table th { background:var(--bg-surface); color:var(--gold); font-family:'Cinzel',serif; letter-spacing:0.08em; padding:12px 16px; border:1px solid var(--border-hi); text-align:left; }
+    .hs-table td { padding:12px 16px; border:1px solid var(--border-gold); color:var(--text); line-height:1.75; vertical-align:top; }
+    .hs-table td:first-child { color:var(--gold); font-weight:700; white-space:nowrap; font-family:'Noto Serif TC',serif; }
+    .hs-table tr:nth-child(odd) td { background:var(--bg-card); }
+    .hs-table tr:nth-child(even) td { background:var(--bg-dark); }
+    @media(max-width:600px){ .hs-table td:first-child{white-space:normal} }
+
   </style>
 <link rel="icon" type="image/jpeg" href="../assets/images/logo-circle.jpg">
 </head>
@@ -157,234 +171,38 @@
 
   <!-- ═══════════════════════ PAGE HERO ═══════════════════════ -->
   <div class="page-hero">
-    <p class="page-hero__eyebrow">TIAN SHE · LINEAGE — FEATURES</p>
-    <h1 class="page-hero__title">伺服器<span>特色</span></h1>
-    <p class="page-hero__sub">黑暗帝國的規則由強者定義</p>
+    <p class="page-hero__eyebrow">TIAN SHE · LINEAGE — HIGH SKILL</p>
+    <h1 class="page-hero__title">高技<span>獲取途徑</span></h1>
+    <p class="page-hero__sub">掌握 BOSS 掉落與扭蛋，快速集齊強力技能</p>
   </div>
 
   <!-- ═══════════════════════ FEATURES ═══════════════════════ -->
   <main class="feat-wrap">
 
-    <p class="feat-section-title">◆ 系統介紹</p>
-
-    <div class="sys-grid">
-
-      <a href="feature-blessing.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-7673.png" alt="祝福" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">裝備祝福屬性</div>
-            <div class="sys-card__en">BLESSING</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">使用祝福卷軸為武器、防具、飾品附加<strong>額外屬性加成</strong>，突破裝備極限。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <!-- [移至裝備道具] 職業之力
-      <a href="feature-job-power.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon">⚗</div>
-          <div>
-            <div class="sys-card__title">職業之力</div>
-            <div class="sys-card__en">JOB POWER</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">每個職業的專屬強化被動系統，前往主城 NPC 製作並逐階升級，<strong>滿級之力大幅提升核心戰力</strong>。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-      -->
-
-      <a href="feature-pet.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-1617.png" alt="寵物" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">寵物系統</div>
-            <div class="sys-card__en">PET SYSTEM</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">前往寵物之島捕捉並培育寵物，透過進化果實升至三階，並可製作<strong>專屬裝備大幅強化寵物戰力</strong>。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-prestige.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon" style="font-family:'Cinzel',serif;color:#b8862a;">♛</div>
-          <div>
-            <div class="sys-card__title">威望系統</div>
-            <div class="sys-card__en">PRESTIGE</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">刷怪累積威望點數，解鎖 12 階威望稱號，<strong>每階均提供複合屬性加成</strong>，彰顯強者地位。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-online-reward.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-3562.png" alt="在線禮包" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">在線禮包</div>
-            <div class="sys-card__en">ONLINE REWARD</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">LV 58 以上角色每在線 50 分鐘，系統<strong>自動派送禮包至背包</strong>，含藍鑽、藥水、變身卡等豐富獎勵。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-maps.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-20844.png" alt="地圖" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">地圖介紹</div>
-            <div class="sys-card__en">MAP GUIDE</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">從新手一般地監到限時副本，各區域掉落分佈與建議等級一覽，<strong>掌握資源核心地圖</strong>。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-transform.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-20338.png" alt="變身" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">變身介紹</div>
-            <div class="sys-card__en">TRANSFORM</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">7 種稀有度、100+ 種型態，使用變身石化身強大形態，<strong>攻速與詠速大幅提升</strong>，傳說以上另附屬性加成。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-daily-quest.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-7853.png" alt="每日任務" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">每日任務</div>
-            <div class="sys-card__en">DAILY QUEST</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">每日完成各地圖擊殺任務，獲得<strong>噬魂禮盒</strong>，內含稀有道具、金幣與棒棒糖，任務於每日 18:00 重置。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-dolls.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-20499.png" alt="娃娃" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">娃娃介紹</div>
-            <div class="sys-card__en">DOLL SYSTEM</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">召喚娃娃陪同冒險，共 130+ 隻橫跨 7 種稀有度，<strong>收集特定組合可觸發收藏加成</strong>效果。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-royal-gear.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-17723.png" alt="王族裝備" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">王族專屬裝備</div>
-            <div class="sys-card__en">ROYAL EXCLUSIVE</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">王族限定的專屬裝備，提供<strong>HP、近距離攻擊與魔法防禦</strong>加成，能力依伺服器進度動態調整。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-reborn.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-2747.png" alt="轉生" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">轉生系統</div>
-            <div class="sys-card__en">REBIRTH</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">突破等級極限，透過轉生獲得<strong>專屬強化裝備</strong>，1~3轉逐階提升，挑戰更高層次的力量。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-skills.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon" style="font-family:'Cinzel',serif;color:#b8862a;">⚔</div>
-          <div>
-            <div class="sys-card__title">職業特殊技能</div>
-            <div class="sys-card__en">CLASS SKILLS</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">各職業專屬強力技能，<strong>王者之劍、狂襲、精靈之暈、力場、復仇</strong>，透過每日任務獲取技能書。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-summon.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon" style="font-family:'Cinzel',serif;color:#b8862a;">✦</div>
-          <div>
-            <div class="sys-card__title">法師召喚系統</div>
-            <div class="sys-card__en">SUMMON SYSTEM</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">召喚獸特殊強化，<strong>變形怪、巨大牛人、黑豹</strong>三大終極召喚，需召喚控制戒指解鎖。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-soul-core.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-2700.png" alt="噬魂魔核" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">噬魂魔核</div>
-            <div class="sys-card__en">SOUL CORE</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">製作裝備與道具的<strong>核心材料</strong>，全 BOSS 均會掉落，碎片可合成完整魔核。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <a href="feature-bonus-coin.html" class="sys-card">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-20556.png" alt="紅利幣" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">紅利幣</div>
-            <div class="sys-card__en">BONUS COIN</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">累積紅利幣至主城 NPC 馬德里兌換，<strong>升級 VIP 階級享受豐厚能力加成</strong>與商城道具。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
-      <div class="sys-card" style="opacity:0.45;cursor:default;pointer-events:none;">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-8088.png" alt="龍珠" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">龍珠系統</div>
-            <div class="sys-card__en">COMING SOON</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">尚未開放，敬請期待。</div>
-      </div>
-
-      <a href="feature-boss-gear.html" class="sys-card" style="text-decoration:none;">
-        <div class="sys-card__head">
-          <div class="sys-card__icon"><img src="../assets/images/item-6924.png" alt="BOSS裝" style="width:32px;height:32px;image-rendering:pixelated;" loading="lazy"></div>
-          <div>
-            <div class="sys-card__title">BOSS 裝備</div>
-            <div class="sys-card__en">BOSS GEAR</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">擊殺每日 BOSS，收集材料打造傳說套裝。建議成群結隊，切勿一意孤行！</div>
-      </a>
-
-      <a href="feature-high-skill.html" class="sys-card" style="text-decoration:none;">
-        <div class="sys-card__head">
-          <div class="sys-card__icon" style="font-family:'Cinzel',serif;color:var(--gold);">⚡</div>
-          <div>
-            <div class="sys-card__title">高技獲取途徑</div>
-            <div class="sys-card__en">HIGH SKILL</div>
-          </div>
-        </div>
-        <div class="sys-card__desc">高技碎片箱與各式高技的取得來源一覽，掌握 <strong>BOSS 掉落與扭蛋</strong> 途徑，快速集齊強力技能。</div>
-        <div class="sys-card__arrow">查看詳細介紹</div>
-      </a>
-
+    <div class="hs-note">
+      <div class="hs-note__title">🎁 高技碎片箱（自選）取得方式</div>
+      <ul>
+        <li>擊殺 <strong>各樓層 BOSS</strong> 皆有機率掉落</li>
+        <li>指定 BOSS 掉落：<strong>哈們、龍王敖丙、千手觀音、喬巴</strong> → 高技碎片箱（自選）</li>
+        <li><strong>神奇扭蛋</strong>：機率開出</li>
+      </ul>
+    </div>
+    <div class="hs-tablewrap">
+      <table class="hs-table">
+        <thead><tr><th>高技 / 碎片</th><th>掉落 BOSS 來源</th></tr></thead>
+        <tbody>
+          <tr><td>烈焰之魂</td><td>不死鳥、冥法軍王．海露拜、長老．巴陸德、杰弗雷庫(雄)、杰弗雷庫(雌)</td></tr>
+          <tr><td>碎裂的烈焰之魂</td><td>不死鳥、冥法軍王．海露拜、長老．巴陸德、吉爾塔斯</td></tr>
+          <tr><td>碎裂的大地屏障</td><td>長老．巴洛斯、吉爾塔斯、阿勒尼亞</td></tr>
+          <tr><td>精準射擊</td><td>白面金毛玉藻前、白面金毛九尾狐、巨型骷髏</td></tr>
+          <tr><td>反擊屏障</td><td>底比斯 賀洛斯、底比斯 阿努比斯、黑暗的騎士范德、炎魔、龍王敖丙</td></tr>
+          <tr><td>碎裂的反擊屏障</td><td>黑暗的騎士范德、炎魔</td></tr>
+          <tr><td>破壞盔甲</td><td>沙蟲</td></tr>
+          <tr><td>流星雨</td><td>不死鳥、深淵之主、惡魔、巴拉卡斯、長老．巴陸德、冰魔、吉爾塔斯、歪曲的潔尼斯女王</td></tr>
+          <tr><td>究極光裂術</td><td>鐮刀死神、瑪依奴夏門的鑽石高崙、吉爾塔斯</td></tr>
+          <tr><td>碎裂的究極光裂術</td><td>鐮刀死神、巴拉卡斯、瑪依奴夏門的鑽石高崙</td></tr>
+        </tbody>
+      </table>
     </div>
 
   </main>
@@ -397,7 +215,7 @@
           <img src="../assets/images/logo-circle.jpg" class="footer-logo-icon" alt="天赦天堂">
           <div class="footer-brand-text">
             <span class="logo-text">天赦天堂</span>
-            
+
           </div>
         </div>
         <nav class="footer-links">
